@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+        background-image:url(Miaron_0040.jpg) ;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-color: rgba(0, 0, 0, 0.623);
+        height:100vh;
+        display:grid;
+        place-items:center;
+        align-content:center;
+    }
+form{
+        background-image: none;
+        display:grid;
+        place-items:center;
+        align-content:center;
+        background-color:rgba(0, 0, 255, 0.568);
+        border-radius:4rem;
+        box-shadow:10px 10px rgba(0, 0, 0, 0.644);
+        width:auto;
+        top: 30%;
+        left:35vw;
+        height: auto;
+    }
+header{
+          display:block;
+          text-align:center;
+          position:fixed;
+          top:0;
+          left:0;
+          width:100vw;
+          background-color:rgba(0, 0, 0, 0.521);
+          color:black;
+          text-shadow:1px 1px whitesmoke
+     }
+p{
+         margin:1rem;
+         height:auto;
+         width:auto;
+}
+label{ font-style:italic;
+         font-weight:bolder;
+         color:black;
+         text-shadow:0.1px azure;
+         font-size:large;
+}
+input{
+         color:green;
+         border-radius:10px;
+         box-shadow:5px 5px black;
+         cursor:alias 2px red;
+         padding:0.1vh;
+         font-size: larger;
+         width:30vw;
+     
+     }
+button{
+        font-size:20px;
+        background-color:black;
+        color:whitesmoke;
+     }
+footer{
+         display:flex;
+         text-align:inline;
+         justify-content:space-between;
+         color:whitesmoke;
+         font-style: italic;
+         position:fixed;
+         bottom:0;
+         left:0;
+         background-color:black;
+         width:100vw;
+     }
+ @media only screen
+and (max-device-width: 414px)
+ and (max-device-height: 1000px)
+ and (-webkit-min-device-pixel-ratio: 2)  { 
+        form{
+            position:center;
+        }
+        header{
+            width:100vw;
+        }
+        footer{
+            width:100vw;
+        }
+   
+   }
+   

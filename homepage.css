@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    background-image:url(thumb-1920-697207.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: rgba(0, 0, 0, 0.623);
+    scroll-behavior:smooth;
+   }
+header{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    background-color:rgba(128, 0, 128, 0.747);
+    color:black;
+    text-shadow:1px 1px whitesmoke
+}
+nav ul{
+    display:flex;
+    justify-content:space-between;
+    flex-direction: row;
+    list-style:none;
+    background-color:black;
+    color:aliceblue;
+    column-gap:5px;
+}
+nav a{
+    text-decoration:none;
+}
+footer{
+    display:flex;
+    text-align:inline;
+    justify-content:space-between;
+    color:whitesmoke;
+    font-style: italic;
+    position:fixed;
+    bottom:0;
+    left:0;
+    background-color:black;
+    width:100vw;
+    padding:10px;
+}
+p{
+    margin:2px;
+}
+main{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:5em;
+    padding:5em;
+}
+main div{
+    width:350px;
+    height:350px;
+    background-color:aqua;
+    color:black;
+    font-size: x-large;
+    font-weight: bolder;
+    text-shadow:1px 1px white;
+    border-radius:20%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+main a{
+    text-decoration:none;
+}
+.insurance:hover{
+  transform:rotate X(360deg);
+  transition:all 2s 0.5s;
+  transition-timing-function:ease;
+}
+.eHospital:hover{
+  transition-property:transform;
+  transform:rotate X(360deg);
+  transition:all 2s 0.5s;
+  transition-timing-function:ease;
+}
+.Lifeline:hover{
+  transform:rotate X(360deg);
+  transition:all 2s 0.5s;
+  transition-timing-function:ease;
+}
+.medHub:hover{
+  transform:rotate X(360deg);
+  transition:all 2s 0.5s;
+  transition-timing-function:ease;
+}
